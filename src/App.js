@@ -48,14 +48,14 @@ const App = () => {
 
   const [timsThings, setTimsThings] = useState([
     {
-      name: 'banana',
+      name: 'tetractys',
       image:
-        'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Tetractys.svg/200px-Tetractys.svg.png',
       attributes: [
-        'potassium-rich',
-        'yellow when good',
-        'not a taco',
-        'ring ring ring ring ring ring ring',
+        'triangle',
+        'four rows',
+        'ten points',
+        'kosmos',
       ],
     },
     {
