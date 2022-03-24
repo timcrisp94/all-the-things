@@ -7,6 +7,7 @@ import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
 import Landing from './pages/Landing/Landing'
 
+
 const App = () => {
   const [evansThings, setEvansThings] = useState([
     {
@@ -45,7 +46,7 @@ const App = () => {
     },
   ])
 
-  const [bensThings, setBensThings] = useState([
+  const [timsThings, setTimsThings] = useState([
     {
       name: 'banana',
       image:
@@ -135,7 +136,7 @@ const App = () => {
       />
       <Route
         path="/the-manliest-things"
-        element={<ManliestThings things={bensThings} />}
+        element={<ManliestThings things={timsThings} />}
       />
       <Route
         path="/the-well-styled-things"
