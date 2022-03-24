@@ -16,7 +16,7 @@ const App = () => {
       attributes: ['efficient', 'reusability', 'not a taco', 'beautiful'],
     },
     {
-      name: 'React hooks',
+      name: 'Reacting to hooks',
       image:
         'https://images.unsplash.com/photo-1518644730709-0835105d9daa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
       attributes: [
