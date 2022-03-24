@@ -11,41 +11,37 @@ import Landing from './pages/Landing/Landing'
 const App = () => {
   const [evansThings, setEvansThings] = useState([
     {
-      name: 'functional programming',
-      image: 'https://imgs.xkcd.com/comics/functional.png',
-      attributes: ['efficient', 'reusability', 'not a taco', 'beautiful'],
+      name: 'Towel Rack Dog',
+      image: 'https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54857167/2/?bust=1646411737&width=1080',
+      attributes: ['droopy', 'many breasts', 'affectionate', 'beautiful'],
     },
     {
-      name: 'Reacting to hooks',
+      name: 'My Hero',
       image:
-        'https://images.unsplash.com/photo-1518644730709-0835105d9daa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
+        'https://i.etsystatic.com/30123442/r/il/468df0/3273000359/il_1588xN.3273000359_aw0a.jpg',
       attributes: [
-        'useEffect',
-        'useState',
-        'not a taco',
-        "state's best friend",
+        'riffs',
+        'looks cool',
+        'great tone',
+        "coolest guitar",
       ],
     },
     {
-      name: 'BluBlockers',
+      name: 'Grapes',
       image:
-        'https://susanmaryetta.files.wordpress.com/2011/06/blublocker-the-hangover.png?w=584',
+        'https://upload.wikimedia.org/wikipedia/commons/6/6c/Abhar-iran.JPG',
       attributes: [
         'very attractive',
-        'useful probably!',
-        'good for viewing tacos',
-        'such hip',
-        'worn by all the cool kids',
+        'has taste',
+        'a fruit',
       ],
     },
     {
-      name: 'Healthy food',
-      image: 'https://i.imgur.com/gRxOxsA.jpg',
+      name: 'Kickflip',
+      image: 'https://media.giphy.com/media/Ihlo8QC1T9yQ9p4KRF/giphy.gif',
       attributes: [
-        'makes you live a long time',
-        'consistent poops',
-        'probably tacos sometimes!',
-        'farm to market',
+        'you cannot do it',
+        'i cannot do it',
       ],
     },
   ])
